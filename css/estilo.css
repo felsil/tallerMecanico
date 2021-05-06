@@ -1,0 +1,150 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* el padding que se establece sera parte de las cajas*/
+}
+header {
+    width: 100%;
+    height: 50px;
+    background:#333;
+    color: burlywood;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.navbar-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #262626;
+}
+.nav-item{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item-active .nav-link
+{
+    background: #262626;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #262626;
+    padding: 5px 15px;
+}
+.bannerTrasero{
+    position: relative;
+    background: url(tallermecanico1.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+.bannerTrasero h2{
+    margin: o;
+    padding: 0;
+    font-size: 2.8em;
+    font-weight: 1000;
+    color:black;
+    text-transform: uppercase;
+}
+.bannerTrasero p{
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color:black;
+}
+.bannerTraseroGaleria{
+    position: relative;
+    background: url(tallermecanico1.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 25px;
+    text-align: center;
+}
+.bannerTraseroGaleria h2{
+    margin: o;
+    padding: 0;
+    font-size: 2.8em;
+    font-weight: 1000;
+    color:black;
+    text-transform: uppercase;
+}
+.bannerTraseroGaleria p{
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 2.2em;
+    line-height: 1.5em;
+    color:black;
+
+}
+.btnD1{
+    display: inline-block;
+    margin: 1em 0 0;
+    background: rgb(108, 214, 247);
+    color: rgb(92, 91, 91);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 800;
+}
+h1 {
+    float: left;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+header .contenedor{
+    display: table;
+}
+section{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#bienvenida{
+    text-align: center;
+    font-family: cursive;
+}
+footer{
+    font-family: cursive;
+    text-align: center;
+    height: 100px;
+    font-size: 15px;
+}
+.seccionIndicadoresEuro{
+    background: #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.seccionIndicadoresDolar{
+    background: #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
