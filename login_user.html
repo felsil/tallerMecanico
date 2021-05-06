@@ -44,7 +44,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="login_admin.html">Administrador</a></li>
-                            <li><a class="dropdown-item" href="#">Empleados</a></li>
+                            <li><a class="dropdown-item" href="login_user.html">Empleados</a></li>
                             <li><a class="dropdown-item" href="#">Inscripcion</a></li>
                         </ul>
                     </li>
@@ -56,24 +56,22 @@
             </div>
         </div>
     </nav>
+    <script src="js/registro.js"></script>
+    <script src="js/proceso.js"></script>
     <section class="bannerTraseroContacto">
         <section class="seccionContacto">
-            <form action="" class="fomularioContacto">
-                <h2 class="forContactoTitulo">Envia un mensaje</h2>
+            <form action="" class="fomularioContacto" action="" method="POST" onsubmit="return validarFormulario()">
+                <h2 class="forContactoTitulo">LOGIN USUARIO</h2>
                 <div class="contactoInfo">
-                    <label for="names">Nombres *</label>
-                    <input type="text" id="names">
+                    <label for="names">USUARIO *</label>
+                    <input type="text" id="names" placeholder="Ingresa tu Usuario">
 
-                    <label for="phone">Telefono / Celular</label>
-                    <input type="text" id="phone">
-
-                    <label for="email">Correo electronico *</label>
-                    <input type="text" id="email">
-
-                    <label for="mensaje">Mensaje *</label>
-                    <textarea id="mensaje"></textarea>
-
-                    <input class="btn-enviar" type="button" value="Enviar Mensaje">
+                    <label for="names">PASSWORD</label>
+                    <input type="password" id="names" placeholder="Ingresa tu password">
+                    <div>
+                      <a href="">CREAR USUARIO</a>
+                      <input class="btn-enviar" type="submit" value="Enviar Mensaje">
+                    </div>
                 </div>
             </form>
         </section>
