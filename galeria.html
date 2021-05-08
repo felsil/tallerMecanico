@@ -51,8 +51,8 @@
                         </ul>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <form class="d-flex" method="POST" onsubmit="return validarFormulario()">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" required>
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
@@ -226,6 +226,6 @@
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
     <script src="dist/js/lightbox-plus-jquery.min.js"></script>
-   
+    <script src="js/scripts.js"></script>
 </body>
 </html>
